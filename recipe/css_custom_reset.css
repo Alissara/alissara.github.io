@@ -1,0 +1,24 @@
+html, body, header, img, nav, ul, li, a, aside, h2, section, h1, figure,
+figcaption, p, ol, form, label, input, select, option, textarea, footer, {
+
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  vertical-align: baseline;
+}
+
+input[type=“radio”], select, input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
+
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
